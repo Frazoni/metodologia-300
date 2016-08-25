@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Avaliação 300</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Fonts -->
+<!-- CSS Libs -->
+<link rel="stylesheet" type="text/css"
+	href="../../lib/css/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"
+	href="../../lib/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css"
+	href="../../lib/css/bootstrap/animate.min.css">
+<link rel="stylesheet" type="text/css"
+	href="../../lib/css/bootstrap/bootstrap-switch.min.css">
+<link rel="stylesheet" type="text/css"
+	href="../../lib/css/bootstrap/checkbox3.min.css">
+<link rel="stylesheet" type="text/css"
+	href="../../lib/css/bootstrap/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css"
+	href="../../lib/css/bootstrap/dataTables.bootstrap.css">
+<link rel="stylesheet" type="text/css"
+	href="../../lib/css/bootstrap/select2.min.css">
+<!-- CSS App -->
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<link rel="stylesheet" type="text/css"
+	href="../../css/themes/flat-blue.css">
+<link rel="stylesheet" type="text/css"
+	href="../../css/font-google-lato.css">
+<link rel="stylesheet" type="text/css"
+	href="../../css/font-google-roboto.css">
+</head>
+
+<body class="flat-blue">
+
+	<div class="app-container expanded">
+		<div class="row content-container">
+			<nav class="navbar navbar-default navbar-fixed-top navbar-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-expand-toggle fa-rotate-90">
+							<i class="fa fa-bars icon"></i>
+						</button>
+						<ol class="breadcrumb navbar-breadcrumb">
+							<li>Aluno</li>
+							<li class="active">Formulário de Ajudante</li>
+						</ol>
+						<button type="button"
+							class="navbar-right-expand-toggle pull-right visible-xs">
+							<i class="fa fa-th icon"></i>
+						</button>
+					</div>
+					<ul class="nav navbar-nav navbar-right">
+						<button type="button"
+							class="navbar-right-expand-toggle pull-right visible-xs">
+							<i class="fa fa-times icon"></i>
+						</button>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown" role="button" aria-expanded="false"><i
+								class="fa fa-comments-o"></i></a>
+							<ul class="dropdown-menu animated fadeInDown">
+								<li class="title">Notification <span
+									class="badge pull-right">0</span>
+								</li>
+								<li class="message">No new notification</li>
+							</ul></li>
+						<li class="dropdown danger"><a href="#"
+							class="dropdown-toggle" data-toggle="dropdown" role="button"
+							aria-expanded="false"><i class="fa fa-star-half-o"></i> 4</a>
+							<ul class="dropdown-menu danger  animated fadeInDown">
+								<li class="title">Notification <span
+									class="badge pull-right">4</span>
+								</li>
+								<li>
+									<ul class="list-group notifications">
+										<a href="#">
+											<li class="list-group-item"><span class="badge">1</span>
+												<i class="fa fa-exclamation-circle icon"></i> new
+												registration</li>
+										</a>
+										<a href="#">
+											<li class="list-group-item"><span class="badge success">1</span>
+												<i class="fa fa-check icon"></i> new orders</li>
+										</a>
+										<a href="#">
+											<li class="list-group-item"><span class="badge danger">2</span>
+												<i class="fa fa-comments icon"></i> customers messages</li>
+										</a>
+										<a href="#">
+											<li class="list-group-item message">view all</li>
+										</a>
+									</ul>
+								</li>
+							</ul></li>
+						<li class="dropdown profile"><a href="#"
+							class="dropdown-toggle" data-toggle="dropdown" role="button"
+							aria-expanded="false">Emily Hart <span class="caret"></span></a>
+							<ul class="dropdown-menu animated fadeInDown">
+								<li class="profile-img"><img
+									src="../../img/profile/picjumbo.com_HNCK4153_resize.jpg"
+									class="profile-img"></li>
+								<li>
+									<div class="profile-info">
+										<h4 class="username">Emily Hart</h4>
+										<p>emily_hart@email.com</p>
+										<div class="btn-group margin-bottom-2x" role="group">
+											<button type="button" class="btn btn-default">
+												<i class="fa fa-user"></i> Profile
+											</button>
+											<button type="button" class="btn btn-default">
+												<i class="fa fa-sign-out"></i> Logout
+											</button>
+										</div>
+									</div>
+								</li>
+							</ul></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="side-menu sidebar-inverse">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="side-menu-container">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="#">
+								<div class="icon fa fa-pencil-square-o"></div>
+								<div class="title">Avaliação 300</div>
+							</a>
+							<button type="button"
+								class="navbar-expand-toggle pull-right visible-xs">
+								<i class="fa fa-times icon"></i>
+							</button>
+						</div>
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html"> <span
+									class="icon fa fa-tachometer"></span><span class="title">Dashboard</span>
+							</a></li>
+							<li class="panel panel-default dropdown"><a
+								data-toggle="collapse" href="#dropdown-element"> <span
+									class="icon fa fa-user"></span><span class="title">Aluno</span>
+							</a> <!-- Dropdown level 1 -->
+								<div id="dropdown-element" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul class="nav navbar-nav">
+											<li><a href="ajudante.html">Ajudante</a></li>
+											<li><a href="lider.html">Lider</a></li>
+										</ul>
+									</div>
+								</div></li>
+							<li class="panel panel-default dropdown"><a
+								data-toggle="collapse" href="#dropdown-table"> <span
+									class="icon fa fa-user-plus"></span><span class="title">Professor</span>
+							</a> <!-- Dropdown level 1 -->
+								<div id="dropdown-table" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul class="nav navbar-nav">
+											<li><a href="table/table.html">Aluno</a></li>
+											<li><a href="table/table.html">Disciplina</a></li>
+											<li><a href="table/datatable.html">Turma</a></li>
+										</ul>
+									</div>
+								</div></li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</nav>
+			</div>
+			<!-- Main Content -->
+			<div class="container-fluid">
+				<form>
+					<div class="side-body padding-top">
+						<div class="page-title">
+							<span class="title">Formulário de Ajudante</span>
+							<div class="description">Prezado Ajudante, Neste formulário
+								você deverá avaliar, com bastante honestidade, o nível de ajuda
+								oferecida a cada integrante do grupo com base na escala de 1 a 5
+								(1 para pouca ajuda e 5 para muita ajuda).</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="card">
+									<div class="card-header">
+										<div class="card-title">
+											<div class="title">
+												<span>Ajudado 1</span>
+											</div>
+										</div>
+									</div>
+									<div class="card-body">
+										<div class="form-group">
+											<label for="exampleInputEmail1">Nome</label> <input
+												type="text" class="form-control" id="exampleInputEmail1"
+												placeholder="Nome do Aluno">
+										</div>
+										<div class="form-group">
+											<label for="exampleInputPassword1">RA</label> <input
+												type="text" class="form-control" id="exampleInputPassword1"
+												placeholder="Registro Acadêmico">
+										</div>
+										<div class="form-group">
+											<label for="exampleInputPassword1">Nível de Ajuda</label>
+											<div>
+												<select>
+													<option value="1">Um</option>
+													<option value="2">Dois</option>
+													<option value="3">Três</option>
+													<option value="4">Quatro</option>
+													<option value="5">Cinco</option>
+												</select>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="card">
+									<div class="card-header">
+										<div class="card-title">
+											<div class="title">
+												<span>Ajudado 2</span>
+											</div>
+										</div>
+									</div>
+									<div class="card-body">
+										<div class="form-group">
+											<label for="exampleInputEmail1">Nome</label> <input
+												type="text" class="form-control" id="exampleInputEmail1"
+												placeholder="Nome do Aluno">
+										</div>
+										<div class="form-group">
+											<label for="exampleInputPassword1">RA</label> <input
+												type="text" class="form-control" id="exampleInputPassword1"
+												placeholder="Registro Acadêmico">
+										</div>
+										<div class="form-group">
+											<label for="exampleInputPassword1">Nível de Ajuda</label>
+											<div>
+												<select>
+													<option value="1">Um</option>
+													<option value="2">Dois</option>
+													<option value="3">Três</option>
+													<option value="4">Quatro</option>
+													<option value="5">Cinco</option>
+												</select>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="card"></div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer class="app-footer">
+		<div class="wrapper">
+			<span class="pull-right">2.1 <a href="#"><i
+					class="fa fa-long-arrow-up"></i></a></span> @Newton 2016 Copyright.
+		</div>
+	</footer>
+
+
+	<!-- Javascript Libs -->
+	<script type="text/javascript" src="../../lib/js/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="../../lib/js/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript"
+		src="../../lib/js/bootstrap/Chart.min.js"></script>
+	<script type="text/javascript"
+		src="../../lib/js/bootstrap/bootstrap-switch.min.js"></script>
+
+	<script type="text/javascript"
+		src="../../lib/js/jquery/jquery.matchHeight-min.js"></script>
+	<script type="text/javascript"
+		src="../../lib/js/jquery/jquery.dataTables.min.js"></script>
+	<script type="text/javascript"
+		src="../../lib/js/bootstrap/dataTables.bootstrap.min.js"></script>
+	<script type="text/javascript"
+		src="../../lib/js/bootstrap/select2.full.min.js"></script>
+	<script type="text/javascript" src="../../lib/js/ace/ace.js"></script>
+	<script type="text/javascript" src="../../lib/js/ace/mode-html.js"></script>
+	<script type="text/javascript" src="../../lib/js/ace/theme-github.js"></script>
+	<!-- Javascript -->
+	<script type="text/javascript" src="../../js/components/api.js"></script>
+</body>
+
+</html>
